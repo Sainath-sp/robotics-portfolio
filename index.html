@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0e10">
+  <meta name="description" content="Sainath Punchbhai — robotics, embedded systems, automation and control engineering portfolio.">
+  <title>Sainath Punchbhai — Robotics & Embedded Systems</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Sainath home">
+      <span class="brand-mark">S<span>.</span></span>
+      <span class="brand-name">SAINATH PUNCHBHAI <small>ENGINEERING PORTFOLIO</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#expertise">Expertise</a><a href="#about">About</a><a href="#contact" class="nav-contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> ROBOTICS · EMBEDDED SYSTEMS · AUTOMATION</div>
+        <h1>Engineering<br>intelligence <span class="accent">into motion.</span></h1>
+        <p class="hero-intro">I build at the intersection of hardware and software — from embedded electronics and robotic mechanisms to motion planning and simulation.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore selected work <span>↘</span></a>
+          <a class="text-link" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-footnote"><span>01 / 04</span><span class="foot-line"></span><span>DESIGN · BUILD · ITERATE</span></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Animated schematic-inspired robotic arm illustration">
+        <div class="visual-topline"><span>FIG. 001 / MANIPULATOR SYSTEM</span><span class="live-label"><i></i> SYSTEM READY</span></div>
+        <div class="tech-grid"></div>
+        <svg class="robot-art" viewBox="0 0 600 540" role="img" aria-label="Stylized six-axis robotic arm illustration">
+          <defs>
+            <linearGradient id="armMetal" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f2f5ec"/><stop offset=".42" stop-color="#8c9991"/><stop offset="1" stop-color="#394744"/>
+            </linearGradient>
+            <linearGradient id="armDark" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#42514c"/><stop offset="1" stop-color="#171e1c"/>
+            </linearGradient>
+            <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <circle cx="305" cy="260" r="202" fill="none" stroke="#c7ff4b" stroke-opacity=".15" stroke-dasharray="3 8"/>
+          <circle cx="305" cy="260" r="156" fill="none" stroke="#c7ff4b" stroke-opacity=".22" stroke-dasharray="1 8"/>
+          <circle cx="305" cy="260" r="112" fill="none" stroke="#8f9d96" stroke-opacity=".2"/>
+          <path d="M60 432 H540 M305 34 V490" stroke="#8f9d96" stroke-opacity=".18" stroke-dasharray="4 8"/>
+          <g class="robot-assembly">
+            <ellipse cx="300" cy="438" rx="122" ry="22" fill="#000" opacity=".38"/>
+            <path d="M222 414 L242 376 L351 376 L378 414 L363 432 L236 432Z" fill="url(#armDark)" stroke="#9ba69f" stroke-opacity=".5"/>
+            <ellipse cx="300" cy="412" rx="78" ry="17" fill="#7b8981" stroke="#d9e2d7" stroke-opacity=".5"/>
+            <ellipse cx="300" cy="408" rx="51" ry="10" fill="#1b2421" stroke="#c7ff4b" stroke-opacity=".7"/>
+            <path d="M257 396 L272 321 L326 321 L344 396Z" fill="url(#armMetal)" stroke="#e6eee4" stroke-opacity=".6"/>
+            <ellipse cx="299" cy="321" rx="32" ry="16" fill="#202a26" stroke="#aebbb2"/>
+            <path d="M277 317 L229 223 L269 202 L321 300Z" fill="url(#armMetal)" stroke="#d5ded4" stroke-opacity=".65"/>
+            <path d="M229 223 L245 211 L282 276 L270 284Z" fill="#c7ff4b" opacity=".72"/>
+            <circle cx="250" cy="213" r="30" fill="url(#armDark)" stroke="#d5ded4" stroke-width="2"/>
+            <circle cx="250" cy="213" r="17" fill="#101614" stroke="#c7ff4b" stroke-width="2"/>
+            <circle cx="250" cy="213" r="5" fill="#c7ff4b" filter="url(#glow)"/>
+            <path d="M250 188 L371 129 L399 167 L273 230Z" fill="url(#armMetal)" stroke="#d5ded4" stroke-opacity=".7"/>
+            <path d="M283 202 L369 153 L379 166 L294 216Z" fill="#c7ff4b" opacity=".66"/>
+            <circle cx="384" cy="148" r="27" fill="url(#armDark)" stroke="#d5ded4" stroke-width="2"/>
+            <circle cx="384" cy="148" r="15" fill="#101614" stroke="#c7ff4b" stroke-width="2"/>
+            <circle cx="384" cy="148" r="4" fill="#c7ff4b" filter="url(#glow)"/>
+            <path d="M395 130 L439 97 L452 113 L410 151Z" fill="url(#armMetal)" stroke="#d5ded4" stroke-opacity=".7"/>
+            <circle cx="445" cy="105" r="17" fill="#1a2420" stroke="#c7ff4b" stroke-width="2"/>
+            <path d="M451 92 L473 73 L481 81 L464 103Z" fill="#dbe3d9"/>
+            <path d="M478 77 L492 63 M481 83 L499 79" stroke="#c7ff4b" stroke-width="4" stroke-linecap="round"/>
+          </g>
+          <g fill="#c7ff4b" font-family="monospace" font-size="10" letter-spacing="2">
+            <text x="70" y="110">6 DOF / ARM</text><text x="405" y="300">KINEMATICS</text>
+            <text x="74" y="463">ROS 2 · MOVEIT</text>
+          </g>
+          <g stroke="#c7ff4b" stroke-width="1" fill="none" opacity=".7">
+            <path d="M96 120 H170 L211 164"/><path d="M405 288 H462 L485 267"/><path d="M160 452 L206 428"/>
+          </g>
+          <g fill="#c7ff4b"><circle cx="211" cy="164" r="3"/><circle cx="485" cy="267" r="3"/><circle cx="206" cy="428" r="3"/></g>
+        </svg>
+        <div class="visual-coordinates"><span>X <b>+0.42</b></span><span>Y <b>-0.18</b></span><span>Z <b>+0.67</b></span><span class="coord-unit">M / SIMULATED</span></div>
+        <div class="visual-caption">ROBOTIC MANIPULATION <span>CONCEPT VISUAL / NOT A LIVE FEED</span></div>
+      </div>
+      <div class="hero-index"><span>BASED IN INDIA</span><span>BUILDING SYSTEMS THAT MOVE</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Technical interests">
+      <div class="ticker-track"><span>ROBOTICS</span><b>✳</b><span>ROS 2</span><b>✳</b><span>EMBEDDED SYSTEMS</span><b>✳</b><span>MOTION CONTROL</span><b>✳</b><span>CAD / SIMULATION</span><b>✳</b><span>ROBOTICS</span><b>✳</b><span>ROS 2</span><b>✳</b><span>EMBEDDED SYSTEMS</span><b>✳</b><span>MOTION CONTROL</span><b>✳</b><span>CAD / SIMULATION</span><b>✳</b></div>
+    </section>
+
+    <section id="work" class="section-wrap work-section">
+      <div class="section-heading reveal"><div><div class="eyebrow">02 / SELECTED BUILDS</div><h2>Ideas made <span class="accent">tangible.</span></h2></div><p>A selection of projects spanning mechanical design, electronics, firmware and robotic software. Each build is a chance to connect the whole system.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-art arm-card-art">
+            <div class="art-label">PROJECT_01 <span>MANIPULATION</span></div>
+            <div class="mini-orbit"></div>
+            <svg viewBox="0 0 500 270" aria-hidden="true">
+              <g stroke="#d9e2d7" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                <path d="M150 220 L190 166 L145 98 L240 55 L290 79"/>
+              </g>
+              <g stroke="#c7ff4b" stroke-width="4" fill="#17201c">
+                <circle cx="190" cy="166" r="19"/><circle cx="145" cy="98" r="17"/><circle cx="240" cy="55" r="14"/>
+              </g>
+              <path d="M290 79 L330 53 M290 79 L323 96" stroke="#c7ff4b" stroke-width="7" stroke-linecap="round"/>
+              <path d="M98 220 H214" stroke="#718079" stroke-width="9" stroke-linecap="round"/>
+              <path d="M122 220 L135 188 H178 L193 220Z" fill="#58665e" stroke="#c7ff4b" stroke-opacity=".7"/>
+              <g stroke="#c7ff4b" stroke-opacity=".45" fill="none"><circle cx="225" cy="132" r="94" stroke-dasharray="4 8"/><path d="M80 35 H160 M80 35 V85"/></g>
+            </svg>
+            <div class="art-footer"><span>6 AXIS / MANIPULATOR</span><span>ROS 2 · MOVEIT 2 · GAZEBO</span></div>
+          </div>
+          <div class="project-info"><div class="project-meta"><span>01 / ROBOTICS</span><span>MECHANICAL + SOFTWARE</span></div><h3>6DOF Robotic Arm</h3><p>From CAD to motion planning: a six-axis arm workflow spanning URDF, inverse kinematics, MoveIt 2 and Gazebo simulation.</p><div class="tag-list"><span>ROS 2</span><span>MoveIt 2</span><span>URDF</span><span>Gazebo</span></div><button class="details-toggle" data-project="arm">Project notes <span>↗</span></button><div class="project-details" id="details-arm"><p><strong>Focus:</strong> robot description, joint limits, planning and simulated trajectory execution. Add your own build photos, repository link and a short demo when ready.</p></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art watch-card-art"><div class="art-label">PROJECT_02 <span>WEARABLE</span></div><div class="watch-device"><div class="watch-strap"></div><div class="watch-face"><span>09:41</span><small>SYS / READY</small><div class="watch-wave"></div><b>82%</b></div></div><div class="art-footer"><span>COMPACT EMBEDDED DESIGN</span><span>ESP32</span></div></div>
+          <div class="project-info"><div class="project-meta"><span>02 / EMBEDDED</span><span>HARDWARE</span></div><h3>Embedded Wristwatch</h3><p>A compact wearable concept combining an ESP32, battery power and a custom electronics package.</p><div class="tag-list"><span>ESP32</span><span>Power</span><span>Embedded C</span></div><button class="details-toggle" data-project="watch">Project notes <span>↗</span></button><div class="project-details" id="details-watch"><p><strong>Focus:</strong> compact packaging, power management and embedded interfaces. Replace this concept visual with photos of your actual prototype.</p></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art hex-card-art"><div class="art-label">PROJECT_03 <span>LOCOMOTION</span></div><svg viewBox="0 0 500 270" aria-hidden="true"><g stroke="#a9b7ae" stroke-width="10" stroke-linecap="round" fill="none"><path d="M250 125 L145 80 L95 137 L70 180"/><path d="M250 125 L355 80 L405 137 L430 180"/><path d="M250 125 L150 160 L130 214 L103 231"/><path d="M250 125 L350 160 L370 214 L397 231"/><path d="M250 125 L218 64 L191 45"/><path d="M250 125 L282 64 L309 45"/></g><path d="M205 100 L295 100 L323 137 L295 172 L205 172 L177 137Z" fill="#2d3932" stroke="#c7ff4b" stroke-width="3"/><path d="M218 115 H282 L297 137 L282 157 H218 L203 137Z" fill="#101614" stroke="#8b9a90"/><circle cx="250" cy="137" r="13" fill="#c7ff4b"/><g fill="#c7ff4b"><circle cx="70" cy="180" r="4"/><circle cx="430" cy="180" r="4"/><circle cx="103" cy="231" r="4"/><circle cx="397" cy="231" r="4"/></g><circle cx="250" cy="137" r="86" stroke="#c7ff4b" stroke-opacity=".25" stroke-dasharray="4 8" fill="none"/></svg><div class="art-footer"><span>MULTI-LEG MECHANISM</span><span>CAD / MECHATRONICS</span></div></div>
+          <div class="project-info"><div class="project-meta"><span>03 / MECHATRONICS</span><span>MECHANICAL DESIGN</span></div><h3>Hexapod Robot</h3><p>A multi-leg robot design exploring compact mechanisms, leg geometry and coordinated movement.</p><div class="tag-list"><span>CAD</span><span>Mechanisms</span><span>Robotics</span></div><button class="details-toggle" data-project="hex">Project notes <span>↗</span></button><div class="project-details" id="details-hex"><p><strong>Focus:</strong> mechanical architecture and leg layout. Add your CAD renders and clarify which stages are designed, simulated or physically built.</p></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art line-card-art"><div class="art-label">PROJECT_04 <span>CONTROL</span></div><div class="track-grid"><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div><div class="track-line"></div></div><div class="sensor-robot"><span></span><i></i><span></span></div><div class="art-footer"><span>FEEDBACK CONTROL</span><span>PID / IR SENSORS</span></div></div>
+          <div class="project-info"><div class="project-meta"><span>04 / CONTROL</span><span>ROBOT + FIRMWARE</span></div><h3>PID Line Follower</h3><p>A differential-drive robot using IR sensing and PID control to follow a track with responsive steering.</p><div class="tag-list"><span>Arduino</span><span>PID</span><span>Motors</span></div><button class="details-toggle" data-project="pid">Project notes <span>↗</span></button><div class="project-details" id="details-pid"><p><strong>Focus:</strong> sensor calibration, error calculation, PID tuning and motor control. Add a video or test results when available.</p></div></div>
+        </article>
+      </div>
+      <p class="section-note"><span class="note-mark">✳</span> Project visuals on this first version are original CSS/SVG concept illustrations. We'll replace or supplement them with your actual project media before calling the portfolio finished.</p>
+    </section>
+
+    <section id="expertise" class="expertise-section">
+      <div class="section-wrap">
+        <div class="section-heading reveal"><div><div class="eyebrow">03 / ENGINEERING TOOLKIT</div><h2>Across the <span class="accent">stack.</span></h2></div><p>Building useful machines means understanding how the mechanical, electrical and software layers work together.</p></div>
+        <div class="expertise-grid">
+          <article class="expertise-item reveal"><span class="expertise-number">01</span><div class="expertise-icon">⌘</div><h3>Robotics & motion</h3><p>Robot descriptions, kinematics, motion planning and simulation workflows.</p><div class="tag-list"><span>ROS 2</span><span>MoveIt 2</span><span>Gazebo</span><span>RViz</span><span>TF2</span></div></article>
+          <article class="expertise-item reveal"><span class="expertise-number">02</span><div class="expertise-icon">⌁</div><h3>Embedded systems</h3><p>Microcontrollers, peripheral interfaces, sensor integration and firmware.</p><div class="tag-list"><span>ESP32</span><span>Arduino</span><span>STM32</span><span>Python</span><span>C/C++</span></div></article>
+          <article class="expertise-item reveal"><span class="expertise-number">03</span><div class="expertise-icon">⎔</div><h3>Mechanical design</h3><p>CAD-led design for mechanisms, assemblies and robot structures.</p><div class="tag-list"><span>Fusion 360</span><span>SolidWorks</span><span>URDF</span><span>3D design</span></div></article>
+          <article class="expertise-item reveal"><span class="expertise-number">04</span><div class="expertise-icon">⌇</div><h3>Electronics & control</h3><p>Sensor/actuator integration, motor drivers and feedback-based control.</p><div class="tag-list"><span>PID</span><span>Motor control</span><span>PCB design</span><span>Instrumentation</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-wrap about-section">
+      <div class="about-stamp reveal"><div class="stamp-ring">ENGINEER · BUILDER · PROBLEM SOLVER · </div><div class="stamp-center">S<span>.</span></div></div>
+      <div class="about-copy reveal"><div class="eyebrow">04 / A LITTLE ABOUT ME</div><h2>Curiosity is the<br><span class="accent">starting point.</span></h2><p>I'm an Electronics and Communication Engineering student interested in robotics, embedded systems and automation. I enjoy moving from an idea to a working system — designing the mechanism, wiring the electronics, writing the firmware and bringing the pieces together in simulation or hardware.</p><p>My current direction is to build deeper expertise in intelligent robotic systems, control and real-world automation.</p><div class="about-facts"><div><span>01</span><b>Design</b><small>Think in systems</small></div><div><span>02</span><b>Build</b><small>Prototype & test</small></div><div><span>03</span><b>Iterate</b><small>Learn by doing</small></div></div></div>
+    </section>
+
+    <section class="milestone-band">
+      <div class="section-wrap milestone-inner reveal"><div class="milestone-symbol">✳</div><div><div class="eyebrow">COMPETITION HIGHLIGHT</div><h2>SAE India Aerothon 2025</h2><p>Runner-up · Flying Phantoms</p></div><div class="milestone-right"><span>TEAMWORK / AUTONOMY</span><strong>02 <small>PLACE</small></strong></div></div>
+    </section>
+
+    <section id="contact" class="section-wrap contact-section">
+      <div class="contact-top reveal"><div class="eyebrow">05 / OPEN CHANNEL</div><h2>Have a project<br>in <span class="accent">mind?</span></h2><p>Interested in robotics, embedded systems, automation or building something challenging? Let's connect.</p><a class="button button-primary" href="mailto:YOUR_EMAIL@example.com">Start a conversation <span>↗</span></a></div>
+      <div class="contact-panel reveal"><div class="contact-row"><span>EMAIL</span><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com ↗</a></div><div class="contact-row"><span>LINKEDIN</span><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Add your profile ↗</a></div><div class="contact-row"><span>GITHUB</span><a href="https://github.com/" target="_blank" rel="noreferrer">Add your GitHub profile ↗</a></div><div class="contact-row"><span>LOCATION</span><span>INDIA</span></div><div class="contact-status"><span class="status-dot"></span> OPEN TO LEARNING, BUILDING & COLLABORATING</div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#top"><span class="brand-mark">S<span>.</span></span><span class="brand-name">SAINATH PUNCHBHAI <small>ENGINEERING PORTFOLIO</small></span></a><span>DESIGNED TO KEEP MOVING <b>↗</b></span><span>© <span id="year"></span> SAINATH PUNCHBHAI</span></footer>
+  <button class="back-top" aria-label="Back to top">↑</button>
+</body>
+</html>
