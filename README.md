@@ -2,6 +2,12 @@
 
 A responsive, animated static website for GitHub Pages. It uses plain HTML, CSS and JavaScript, so there is no build step, npm installation or command line required.
 
+## Version 3 visual direction
+- Midnight blue/black base with controlled lime, yellow, red and blue accents, plus white text and vectors
+- More restrained typography: Manrope for headings/body and DM Mono for technical labels
+- Reduced secondary copy and hidden project bullet lists to make visuals and project titles lead
+- Added layered lighting, floating vector visuals and gentle 3D-style perspective motion
+
 ## What's included
 - Tagline: “Turning Ideas into Reality” / “via Passion and Innovation”
 - Animated robotic-arm hero visual
