@@ -1,46 +1,32 @@
-# Sainath Punchbhai — Robotics & Engineering Portfolio (v2)
+# Sainath Punchbhai — Engineering Portfolio (Version 4)
 
-A responsive, animated static website for GitHub Pages. It uses plain HTML, CSS and JavaScript, so there is no build step, npm installation or command line required.
-
-## Version 3 visual direction
-- Midnight blue/black base with controlled lime, yellow, red and blue accents, plus white text and vectors
-- More restrained typography: Manrope for headings/body and DM Mono for technical labels
-- Reduced secondary copy and hidden project bullet lists to make visuals and project titles lead
-- Added layered lighting, floating vector visuals and gentle 3D-style perspective motion
-
-## What's included
-- Tagline: “Turning Ideas into Reality” / “via Passion and Innovation”
-- Animated robotic-arm hero visual
-- Six project case studies based on the current portfolio and supplied resume
-- Clickable skills/domain selector
-- Scroll-driven engineering pipeline visual that adapts to desktop and mobile
-- Experience, competition achievements, and contact section
-- Responsive mobile navigation, reduced-motion support and scroll progress
-- Links back to original Google Sites project pages for the arm, hexapod and wristwatch
+A static HTML/CSS/JavaScript portfolio designed for GitHub Pages. No build step, paid service, or package installation is required.
 
 ## Upload to GitHub Pages
 1. Download and extract this ZIP.
-2. Open your `robotics-portfolio` GitHub repository.
-3. Select Add file → Upload files.
-4. Upload/drag the **contents** of this folder into the repository root, overwriting the previous `index.html`, `styles.css`, and `script.js`. Keep the `assets` folder.
-5. Commit changes to `main`.
-6. GitHub Pages should automatically redeploy. Open Settings → Pages and click Visit site after the deployment completes.
+2. Open your repository `sainath-sp/robotics-portfolio`.
+3. Choose **Add file → Upload files**.
+4. Open the extracted `robotics-portfolio` folder and upload its contents (not the ZIP and not the outer folder): `index.html`, `styles.css`, `script.js`, `README.md`, and the entire `assets` folder.
+5. Commit the changes to the `main` branch.
+6. Wait for GitHub Pages to redeploy, then hard-refresh the live page with Ctrl+Shift+R.
 
-## Personalize contact details (you said you want to do these yourself)
-Open `index.html` in GitHub and use Find (Ctrl+F) to locate:
-- `YOUR_EMAIL_HERE` — replace all instances with your email, e.g. `name@example.com`. Keep `mailto:` before it in the link.
-- `YOUR_LINKEDIN_URL` — replace with the full URL to your LinkedIn profile.
-- `YOUR_GITHUB_URL` — replace with your profile URL, e.g. `https://github.com/yourusername`.
-- `YOUR_SOCIAL_URL` — replace with an optional social/profile URL, or remove that row if you don't want it.
-- `assets/resume.pdf` — your supplied resume PDF is already included in this package, so the Resume link will work after upload.
+## Contact links to personalize
+In `index.html`, use Ctrl+F to find and replace these placeholders with your own values. Replace both the link URL and the visible labels where appropriate.
+- `YOUR_EMAIL_HERE`
+- `YOUR_LINKEDIN_URL`
+- `YOUR_GITHUB_URL`
+- `YOUR_SOCIAL_URL`
 
-Do not paste contact values into the visible text only: update the `href` and the link label in the same row. The email appears twice; replace both `YOUR_EMAIL_HERE` occurrences.
+The same placeholders appear in the top social links, navigation/contact area.
 
-## Accuracy / portfolio notes
-- Project content is based on the existing Google Sites portfolio and the provided resume. The current portfolio describes the arm's MoveIt 2 and Gazebo work, the hexapod design/prototyping, and the ESP32 productivity wristwatch.
-- The UAV section describes your AeroBMSCE team contribution rather than claiming the entire UAV was built solo.
-- Achievements shown: SAE India ADDC 2026 Unique Design Category winner; SAE India Aerothon 2025 runner-up; e-Yantra Robotics Competition 2025 Stage 2 (Hardware); PhaseShift 2024 hardware hackathon Top 5.
-- Schematic project illustrations are concept visuals, not photographs of your actual hardware. Replace/add authentic CAD renders, prototype photos, test results and demos for a stronger final portfolio.
-- The site's domain/skill claims are based on the supplied resume and current Google Sites content. Adjust anything you don't want to claim.
-- Google Fonts are loaded from an external CDN; if unavailable, system font fallbacks are used.
-- No analytics, third-party JS libraries, backend or paid service is required.
+## Included assets
+- `assets/profile.png`: your profile image
+- `assets/resume.pdf`: resume linked in the contact section
+- `assets/tools/`: supplied software and platform logos
+
+## Design notes
+- Page order: Hero → Capabilities/tools → Projects → Achievements → Experience → Contact
+- The robotic arm is a decorative SVG background that shifts and articulates with scroll position.
+- Project cards use self-contained SVG illustrations and do not redirect to the old Google Sites portfolio. Replace these illustrations with actual project images when available.
+- Tool logo images were processed to remove near-white backgrounds for use on the dark theme.
+- Reduced-motion preferences are respected.

@@ -1,210 +1,37 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0a0d0f">
-  <meta name="description" content="Sainath Punchbhai — robotics, embedded systems, autonomous systems and engineering projects.">
-  <title>Sainath Punchbhai | Turning Ideas into Reality</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b12"><meta name="description" content="Sainath Punchbhai — robotics, embedded systems, autonomous systems and engineering projects.">
+<title>Sainath Punchbhai | Engineering Portfolio</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"><script defer src="script.js"></script>
 </head>
 <body>
-  <div class="scroll-line" aria-hidden="true"><span></span></div>
-  <header class="header">
-    <a class="brand" href="#home" aria-label="Sainath, home"><span class="brand-symbol">S<span>.</span></span><span class="brand-copy">SAINATH PUNCHBHAI<small>ENGINEERING / PORTFOLIO</small></span></a>
-    <button class="menu-button" aria-label="Toggle navigation" aria-expanded="false"><i></i><i></i></button>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#work">Projects</a><a href="#domains">Domains</a><a href="#journey">Journey</a><a href="#contact" class="nav-cta">Contact <span>↗</span></a>
-    </nav>
-  </header>
-
-  <main id="home">
-    <section class="hero wrap">
-      <div class="hero-copy reveal">
-        <div class="kicker"><span class="pulse-dot"></span> ROBOTICS · EMBEDDED SYSTEMS · AUTONOMOUS SYSTEMS</div>
-        <p class="hero-pretitle">Curiosity is the spark. Engineering is the process.</p>
-        <h1>Turning Ideas<br>into <span class="lime">Reality.</span></h1>
-        <p class="hero-subline">via Passion and Innovation</p>
-        <p class="hero-desc">I connect mechanical design, electronics, embedded control and robotics software to turn concepts into working systems.</p>
-        <div class="hero-buttons"><a class="btn-primary" href="#work">Explore my builds <span>↘</span></a><a class="link-arrow" href="#journey">My engineering journey <span>↗</span></a></div>
-        <div class="hero-bottomline"><span>DESIGN / BUILD / TEST / ITERATE</span><span class="tiny-rule"></span><span>ECE · BMSCE</span></div>
-      </div>
-      <div class="hero-stage reveal" aria-label="Animated robotics system illustration">
-        <div class="stage-top"><span>VISUAL SYSTEM / 001</span><span><i class="pulse-dot"></i> <b id="hero-state">SYSTEM READY</b></span></div>
-        <div class="stage-grid"></div>
-        <svg class="hero-robot" viewBox="0 0 560 520" role="img" aria-label="Stylized robotic arm and technical motion paths">
-          <defs>
-            <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef4e9"/><stop offset=".48" stop-color="#8a9a8e"/><stop offset="1" stop-color="#39453e"/></linearGradient>
-            <linearGradient id="darkmetal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#536258"/><stop offset="1" stop-color="#131a17"/></linearGradient>
-            <filter id="limeglow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-          </defs>
-          <g class="orbit orbit-a"><circle cx="280" cy="252" r="200" fill="none" stroke="#c7ff4b" stroke-opacity=".24" stroke-dasharray="2 9"/><circle cx="280" cy="252" r="153" fill="none" stroke="#9ca99e" stroke-opacity=".24"/></g>
-          <circle cx="280" cy="252" r="104" fill="none" stroke="#c7ff4b" stroke-opacity=".18" stroke-dasharray="4 8"/>
-          <path d="M42 420H518M280 28V480" stroke="#89978d" stroke-opacity=".18" stroke-dasharray="3 8"/>
-          <g class="arm-motion">
-            <ellipse cx="280" cy="426" rx="110" ry="19" fill="#000" opacity=".4"/>
-            <path d="M205 405L225 371H335L356 405L342 425H218Z" fill="url(#darkmetal)" stroke="#8c9c8f"/>
-            <ellipse cx="280" cy="402" rx="70" ry="15" fill="#78877b" stroke="#e4ece0" stroke-opacity=".65"/>
-            <path d="M244 386L254 315H307L319 386Z" fill="url(#metal)" stroke="#dce7d9" stroke-opacity=".6"/>
-            <ellipse cx="280" cy="315" rx="30" ry="15" fill="#17201b" stroke="#b7c4b8"/>
-            <path d="M264 309L218 219L252 198L300 295Z" fill="url(#metal)" stroke="#e1e9df" stroke-opacity=".7"/>
-            <path d="M219 220L234 210L266 271L255 280Z" fill="#c7ff4b" opacity=".78"/>
-            <circle cx="237" cy="211" r="28" fill="url(#darkmetal)" stroke="#dbe5d8" stroke-width="2"/>
-            <circle cx="237" cy="211" r="15" fill="#101613" stroke="#c7ff4b" stroke-width="2"/>
-            <circle cx="237" cy="211" r="4" fill="#c7ff4b" filter="url(#limeglow)"/>
-            <path d="M239 189L349 132L375 165L262 227Z" fill="url(#metal)" stroke="#dbe5d8" stroke-opacity=".7"/>
-            <path d="M269 205L348 157L358 170L280 219Z" fill="#c7ff4b" opacity=".68"/>
-            <circle cx="362" cy="149" r="25" fill="url(#darkmetal)" stroke="#dbe5d8" stroke-width="2"/>
-            <circle cx="362" cy="149" r="14" fill="#101613" stroke="#c7ff4b" stroke-width="2"/>
-            <circle cx="362" cy="149" r="4" fill="#c7ff4b" filter="url(#limeglow)"/>
-            <path d="M374 131L417 98L430 113L389 151Z" fill="url(#metal)" stroke="#dbe5d8"/>
-            <circle cx="423" cy="105" r="16" fill="#17201b" stroke="#c7ff4b" stroke-width="2"/>
-            <path d="M429 93L449 75M432 100L451 97" stroke="#c7ff4b" stroke-width="4" stroke-linecap="round"/>
-          </g>
-          <g class="svg-labels" fill="#c7ff4b" font-family="monospace" font-size="10" letter-spacing="1.5"><text x="45" y="102">MANIPULATION</text><text x="390" y="287">KINEMATICS</text><text x="48" y="461">ROS 2 / MOVEIT 2</text></g>
-          <g stroke="#c7ff4b" stroke-width="1" fill="none" opacity=".75"><path d="M80 112H156L199 164"/><path d="M390 276H455L475 257"/><path d="M146 451L202 424"/></g>
-          <g fill="#c7ff4b"><circle cx="199" cy="164" r="3"/><circle cx="475" cy="257" r="3"/><circle cx="202" cy="424" r="3"/></g>
-          <g class="scan-mark" stroke="#c7ff4b" fill="none" stroke-opacity=".5"><path d="M280 48V72M280 432V456M76 252H100M460 252H484"/></g>
-        </svg>
-        <div class="stage-readout"><span>DOF <b>06</b></span><span>MODE <b id="hero-mode">SIMULATION</b></span><span>STATUS <b class="lime">NOMINAL</b></span></div>
-        <div class="stage-footer"><span>ENGINEERED TO MOVE</span><span>ILLUSTRATIVE VISUAL / NOT A LIVE FEED</span></div>
-      </div>
-      <div class="hero-foot"><span>01 / INTRODUCTION</span><span>SCROLL TO EXPLORE ↓</span></div>
-    </section>
-
-    <div class="ticker" aria-label="Technical domains"><div class="ticker-track"><span>ROBOTICS</span><b>✳</b><span>EMBEDDED SYSTEMS</span><b>✳</b><span>AUTONOMOUS UAVs</span><b>✳</b><span>CONTROL SYSTEMS</span><b>✳</b><span>CAD / PROTOTYPING</span><b>✳</b><span>COMPUTER VISION</span><b>✳</b><span>ROBOTICS</span><b>✳</b><span>EMBEDDED SYSTEMS</span><b>✳</b><span>AUTONOMOUS UAVs</span><b>✳</b><span>CONTROL SYSTEMS</span><b>✳</b><span>CAD / PROTOTYPING</span><b>✳</b><span>COMPUTER VISION</span><b>✳</b></div></div>
-
-    <section id="work" class="wrap section work-section">
-      <div class="section-head reveal"><div><span class="section-no">01 / SELECTED PROJECTS</span><h2>Built to <span class="lime">work.</span></h2></div><p>From mechanisms and embedded devices to robotic simulation and autonomous flight, these projects represent different layers of the engineering stack.</p></div>
-      <div class="projects">
-        <article class="project project-wide reveal">
-          <div class="project-visual visual-arm"><div class="visual-id">PROJECT 01 <span>ROBOTICS / MANIPULATION</span></div><div class="project-graphic arm-graphic"><svg viewBox="0 0 500 280" aria-hidden="true"><circle cx="255" cy="140" r="100" fill="none" stroke="#c7ff4b" stroke-opacity=".25" stroke-dasharray="4 8"/><g stroke="#d9e2d7" stroke-width="21" stroke-linecap="round" fill="none"><path d="M150 224L190 166L145 98L240 55L290 79"/></g><g stroke="#c7ff4b" stroke-width="4" fill="#17201c"><circle cx="190" cy="166" r="18"/><circle cx="145" cy="98" r="17"/><circle cx="240" cy="55" r="14"/></g><path d="M290 79L330 53M290 79L323 96" stroke="#c7ff4b" stroke-width="7" stroke-linecap="round"/><path d="M98 224H214" stroke="#718079" stroke-width="9" stroke-linecap="round"/><path d="M122 224L135 190H178L193 224Z" fill="#58665e" stroke="#c7ff4b" stroke-opacity=".7"/></svg></div><div class="visual-bottom"><span>URDF / XACRO</span><span>MOVEIT 2 / GAZEBO</span></div></div>
-          <div class="project-content"><div class="project-meta"><span>01 / ROBOTICS</span><span>CAD → SIMULATION</span></div><h3>Dummy <span>— ROS 2 Robotic Arm</span></h3><p>Designed a custom multi-DOF arm and converted the CAD assembly into a URDF/Xacro model. Built a ROS 2 visualization and control workflow, integrated MoveIt 2 for inverse kinematics and motion planning, and developed a Gazebo simulation for manipulation testing.</p><ul class="project-points"><li>Robot description and joint configuration</li><li>MoveIt 2 planning and pick-and-place workflows</li><li>Gazebo simulation and digital-twin development</li></ul><div class="chips"><span>ROS 2</span><span>URDF / Xacro</span><span>MoveIt 2</span><span>RViz</span><span>Gazebo</span></div><a class="project-link" href="https://sites.google.com/view/sainathpunchbhai/home/robotic-arm" target="_blank" rel="noreferrer">View original project page <span>↗</span></a></div>
-        </article>
-        <article class="project reveal">
-          <div class="project-visual visual-hex"><div class="visual-id">PROJECT 02 <span>MECHATRONICS</span></div><svg class="project-graphic" viewBox="0 0 500 280" aria-hidden="true"><g stroke="#a9b7ae" stroke-width="10" stroke-linecap="round" fill="none"><path d="M250 125L145 80L95 137L70 180"/><path d="M250 125L355 80L405 137L430 180"/><path d="M250 125L150 160L130 214L103 231"/><path d="M250 125L350 160L370 214L397 231"/><path d="M250 125L218 64L191 45"/><path d="M250 125L282 64L309 45"/></g><path d="M205 100L295 100L323 137L295 172L205 172L177 137Z" fill="#2d3932" stroke="#c7ff4b" stroke-width="3"/><path d="M218 115H282L297 137L282 157H218L203 137Z" fill="#101614" stroke="#8b9a90"/><circle cx="250" cy="137" r="13" fill="#c7ff4b"/><circle cx="250" cy="137" r="86" stroke="#c7ff4b" stroke-opacity=".25" stroke-dasharray="4 8" fill="none"/></svg><div class="visual-bottom"><span>MECHANISM DESIGN</span><span>3D PRINTING</span></div></div>
-          <div class="project-content"><div class="project-meta"><span>02 / MECHANICAL DESIGN</span><span>PROTOTYPING</span></div><h3>Pete <span>— Six-Legged Hexapod</span></h3><p>Designed a six-legged robot structure in CAD, focusing on leg mechanisms, joint placement, assembly and mobility. Integrated servo motors and power distribution, then iterated through prototyping and 3D printing.</p><div class="chips"><span>CAD</span><span>Servo Systems</span><span>3D Printing</span><span>Prototyping</span></div><a class="project-link" href="https://sites.google.com/view/sainathpunchbhai/home/hexapod" target="_blank" rel="noreferrer">View original project page <span>↗</span></a></div>
-        </article>
-        <article class="project reveal">
-          <div class="project-visual visual-watch"><div class="visual-id">PROJECT 03 <span>EMBEDDED PRODUCT</span></div><div class="watch-mock"><div class="watch-band"></div><div class="watch-screen"><span>09:41</span><small>ZYRO / READY</small><div class="waveform"></div><b>PRODUCTIVITY SYSTEM</b></div></div><div class="visual-bottom"><span>ESP32</span><span>CONNECTED WEARABLE</span></div></div>
-          <div class="project-content"><div class="project-meta"><span>03 / EMBEDDED SYSTEMS</span><span>ONGOING PRODUCT</span></div><h3>Zyro <span>— Productivity Wristwatch</span></h3><p>An ESP32-based wearable concept for tasks, reminders and daily activity utilities, combining embedded hardware and custom firmware with Wi-Fi/Bluetooth connectivity and power-conscious design.</p><div class="chips"><span>ESP32</span><span>Firmware</span><span>Wireless</span><span>Power Management</span></div><a class="project-link" href="https://sites.google.com/view/sainathpunchbhai/home/wristwatch" target="_blank" rel="noreferrer">View original project page <span>↗</span></a></div>
-        </article>
-        <article class="project reveal">
-          <div class="project-visual visual-pid"><div class="visual-id">PROJECT 04 <span>CONTROL SYSTEMS</span></div><div class="track"><div class="track-route"></div><div class="line-bot"><i></i><i></i><i></i></div></div><div class="visual-bottom"><span>IR SENSOR ARRAY</span><span>PID CONTROL</span></div></div>
-          <div class="project-content"><div class="project-meta"><span>04 / CONTROL</span><span>AUTONOMOUS NAVIGATION</span></div><h3>PID Line Follower</h3><p>Built a differential-drive line follower with a custom CAD chassis and multi-IR sensor array. Tuned PID control to improve tracking, reduce oscillations and achieve smoother navigation.</p><div class="chips"><span>Arduino</span><span>PID</span><span>IR Sensors</span><span>Motor Control</span></div><a class="project-link" href="https://sites.google.com/view/sainathpunchbhai/home" target="_blank" rel="noreferrer">See existing portfolio <span>↗</span></a></div>
-        </article>
-        <article class="project reveal">
-          <div class="project-visual visual-uav"><div class="visual-id">PROJECT 05 <span>AUTONOMOUS SYSTEMS</span></div><svg class="project-graphic" viewBox="0 0 500 280" aria-hidden="true"><g stroke="#b6c4b8" stroke-width="9" stroke-linecap="round"><path d="M250 138L155 78M250 138L345 78M250 138L155 198M250 138L345 198"/></g><g fill="#111815" stroke="#c7ff4b" stroke-width="3"><ellipse cx="135" cy="65" rx="48" ry="12" transform="rotate(28 135 65)"/><ellipse cx="365" cy="65" rx="48" ry="12" transform="rotate(-28 365 65)"/><ellipse cx="135" cy="211" rx="48" ry="12" transform="rotate(-28 135 211)"/><ellipse cx="365" cy="211" rx="48" ry="12" transform="rotate(28 365 211)"/><path d="M215 115L250 95L285 115L300 145L285 168L215 168L200 145Z" fill="#29362d"/></g><circle cx="250" cy="139" r="9" fill="#c7ff4b"/><circle cx="250" cy="139" r="87" fill="none" stroke="#c7ff4b" stroke-opacity=".25" stroke-dasharray="4 8"/></svg><div class="visual-bottom"><span>AVIONICS</span><span>FLIGHT CONTROL / SENSORS</span></div></div>
-          <div class="project-content"><div class="project-meta"><span>05 / UAV SYSTEMS</span><span>TEAM PROJECT</span></div><h3>Autonomous UAV Systems</h3><p>Worked with AeroBMSCE on autonomous UAV development, integrating flight controllers, sensors, communication modules and embedded systems for flight and payload operations.</p><div class="chips"><span>Avionics</span><span>Flight Controllers</span><span>Sensors</span><span>Mission Planner</span></div><div class="project-note">Team contribution · AeroBMSCE</div></div>
-        </article>
-        <article class="project reveal">
-          <div class="project-visual visual-energy"><div class="visual-id">PROJECT 06 <span>HARDWARE / ENERGY</span></div><div class="energy-core"><div class="energy-ring"></div><div class="energy-bolt">ϟ</div><div class="energy-pulse"></div></div><div class="visual-bottom"><span>ENERGY HARVESTING</span><span>PROTOTYPE CONCEPT</span></div></div>
-          <div class="project-content"><div class="project-meta"><span>06 / PROTOTYPING</span><span>HARDWARE EXPLORATION</span></div><h3>Energy-Generating Shoes</h3><p>A hardware exploration into harvesting energy from everyday movement. Use this case study to document your mechanism, circuit, measured output and iteration results.</p><div class="chips"><span>Energy Harvesting</span><span>Electronics</span><span>Prototyping</span></div><div class="project-note">Add your own build photos and measured results before publication.</div></div>
-        </article>
-      </div>
-      <p class="media-note"><span>NOTE / </span> The visual illustrations are original schematic-style concepts. Replace them with real project photos, CAD renders, videos and test results to make each case study uniquely yours.</p>
-    </section>
-
-    <section id="domains" class="domains-section">
-      <div class="wrap">
-        <div class="section-head reveal"><div><span class="section-no">02 / SKILLS & DOMAINS</span><h2>One engineer.<br><span class="lime">Connected layers.</span></h2></div><p>My interests span the full path from physical design to intelligent behavior — where mechanical, electrical and software decisions meet.</p></div>
-        <div class="domain-layout">
-          <div class="domain-list" role="tablist" aria-label="Engineering domains">
-            <button class="domain-tab active" role="tab" aria-selected="true" data-domain="robotics"><span>01</span><b>Robotics & Manipulation</b><i>↗</i></button>
-            <button class="domain-tab" role="tab" aria-selected="false" data-domain="embedded"><span>02</span><b>Embedded Systems & Electronics</b><i>↗</i></button>
-            <button class="domain-tab" role="tab" aria-selected="false" data-domain="autonomy"><span>03</span><b>Autonomous Systems & UAVs</b><i>↗</i></button>
-            <button class="domain-tab" role="tab" aria-selected="false" data-domain="design"><span>04</span><b>CAD, Prototyping & Mechanisms</b><i>↗</i></button>
-            <button class="domain-tab" role="tab" aria-selected="false" data-domain="control"><span>05</span><b>Control, Sensors & Vision</b><i>↗</i></button>
-          </div>
-          <div class="domain-panel" aria-live="polite">
-            <div class="domain-panel-top"><span id="domain-code">DOMAIN / 01</span><span class="pulse-dot"></span></div>
-            <div class="domain-visual" id="domain-visual">
-              <svg viewBox="0 0 360 250" aria-hidden="true">
-                <g class="domain-rings"><circle cx="180" cy="125" r="98"/><circle cx="180" cy="125" r="72"/><circle cx="180" cy="125" r="44"/></g>
-                <g class="domain-nodes"><path d="M180 27V223M82 125H278M111 56L249 194M249 56L111 194"/><circle cx="180" cy="27" r="5"/><circle cx="278" cy="125" r="5"/><circle cx="180" cy="223" r="5"/><circle cx="82" cy="125" r="5"/></g>
-                <g class="domain-center"><rect x="145" y="90" width="70" height="70" rx="10"/><path d="M158 110H202M158 124H202M158 138H189"/></g>
-              </svg>
-              <div class="domain-orbit-label label-a">SYSTEMS</div><div class="domain-orbit-label label-b">INTEGRATION</div><div class="domain-orbit-label label-c">ITERATION</div>
-            </div>
-            <h3 id="domain-title">Robotics & Manipulation</h3>
-            <p id="domain-description">Robot modeling, motion planning and simulation — connecting a designed mechanism to a robot that can be visualized and commanded.</p>
-            <div class="domain-tags" id="domain-tags"><span>ROS 2</span><span>MoveIt 2</span><span>URDF / Xacro</span><span>RViz</span><span>Gazebo</span></div>
-          </div>
-        </div>
-        <div class="skill-strip reveal"><div><span>PROGRAMMING</span><b>Python · C/C++</b></div><div><span>ROBOTICS SOFTWARE</span><b>ROS 2 · MoveIt 2 · Gazebo · RViz · URDF/Xacro</b></div><div><span>DESIGN & BUILD</span><b>SolidWorks · Fusion 360 · KiCad · EasyEDA</b></div><div><span>PLATFORMS</span><b>Linux · Arduino · Mission Planner</b></div></div>
-      </div>
-    </section>
-
-    <section id="journey" class="wrap journey-section">
-      <div class="section-head reveal"><div><span class="section-no">03 / SCROLL-DRIVEN ENGINEERING JOURNEY</span><h2>From concept<br>to <span class="lime">capability.</span></h2></div><p>Scroll through the stages. The system visual responds as the journey moves from design to electronics, simulation and autonomous behavior.</p></div>
-      <div class="journey-grid">
-        <div class="journey-visual-wrap">
-          <div class="journey-visual" id="journey-visual">
-            <div class="journey-visual-header"><span>ENGINEERING PIPELINE / LIVE VISUAL</span><span id="journey-stage-label">STAGE 01</span></div>
-            <svg viewBox="0 0 500 500" class="pipeline-svg" aria-label="Interactive engineering pipeline illustration">
-              <defs><linearGradient id="pipeGlow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c7ff4b"/><stop offset="1" stop-color="#5f9460"/></linearGradient></defs>
-              <g class="pipe-orbits"><circle cx="250" cy="250" r="184"/><circle cx="250" cy="250" r="144"/><circle cx="250" cy="250" r="100"/></g>
-              <g class="pipe-radials"><path d="M250 42V458M42 250H458M103 103L397 397M397 103L103 397"/></g>
-              <g class="pipe-track"><path d="M250 66L409 158L409 342L250 434L91 342L91 158Z"/><path d="M250 112L369 181L369 319L250 388L131 319L131 181Z"/></g>
-              <g class="pipe-nodes"><circle cx="250" cy="66" r="10"/><circle cx="409" cy="158" r="10"/><circle cx="409" cy="342" r="10"/><circle cx="250" cy="434" r="10"/><circle cx="91" cy="342" r="10"/><circle cx="91" cy="158" r="10"/></g>
-              <g class="pipe-core"><rect x="186" y="186" width="128" height="128" rx="18"/><path d="M215 224H285M215 250H285M215 276H266"/><circle cx="250" cy="250" r="7"/></g>
-              <g class="pipe-particles"><circle cx="250" cy="66" r="4"/><circle cx="409" cy="158" r="4"/><circle cx="409" cy="342" r="4"/><circle cx="250" cy="434" r="4"/><circle cx="91" cy="342" r="4"/><circle cx="91" cy="158" r="4"/></g>
-            </svg>
-            <div class="journey-readout"><span id="journey-readout-a">CAD / STRUCTURE</span><span id="journey-readout-b">01 — DESIGN</span></div>
-          </div>
-          <p class="journey-hint"><span class="pulse-dot"></span> Scroll the stages to activate the system</p>
-        </div>
-        <div class="journey-steps">
-          <article class="journey-step active" data-stage="0"><span class="step-index">01 / DESIGN</span><h3>Shape the idea.</h3><p>Translate a concept into a mechanism. Explore geometry, joint placement, assemblies and constraints through CAD.</p><div class="step-tools">SOLIDWORKS · FUSION 360 · MECHANISMS</div></article>
-          <article class="journey-step" data-stage="1"><span class="step-index">02 / ELECTRONICS</span><h3>Make it respond.</h3><p>Integrate microcontrollers, sensors, actuators, motor drivers and power systems so the physical build can sense and act.</p><div class="step-tools">ESP32 · ARDUINO · PCB · SENSORS</div></article>
-          <article class="journey-step" data-stage="2"><span class="step-index">03 / SOFTWARE</span><h3>Give it a model.</h3><p>Build robot descriptions and software interfaces. Visualize the system and develop control and motion-planning workflows.</p><div class="step-tools">ROS 2 · URDF/XACRO · RVIZ · MOVEIT 2</div></article>
-          <article class="journey-step" data-stage="3"><span class="step-index">04 / SIMULATION</span><h3>Test before reality.</h3><p>Use simulation to inspect geometry, validate trajectories and iterate on system behavior before physical deployment.</p><div class="step-tools">GAZEBO · DIGITAL TWINS · TESTING</div></article>
-          <article class="journey-step" data-stage="4"><span class="step-index">05 / AUTONOMY</span><h3>Connect the system.</h3><p>Bring sensing, control and decision-making together for autonomous robotics and UAV applications.</p><div class="step-tools">CONTROL · AVIONICS · AUTONOMOUS SYSTEMS</div></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="experience-section">
-      <div class="wrap">
-        <div class="section-head reveal"><div><span class="section-no">04 / EXPERIENCE & RECOGNITION</span><h2>Built with <span class="lime">teams.</span></h2></div><p>Engineering also means communicating clearly, coordinating work and learning through collaborative builds.</p></div>
-        <div class="timeline">
-          <article class="timeline-item reveal"><div class="timeline-date">2025 — 2026</div><div class="timeline-mark"></div><div class="timeline-copy"><span class="timeline-type">AVIONICS / AUTONOMOUS UAVs</span><h3>AeroBMSCE</h3><p>Avionics team member. Contributed to autonomous UAV development, integrating flight controllers, sensors, communication modules and embedded systems for flight and payload operations.</p></div></article>
-          <article class="timeline-item reveal"><div class="timeline-date">2024 — PRESENT</div><div class="timeline-mark"></div><div class="timeline-copy"><span class="timeline-type">ELECTRONICS DESIGN & PROCESSING</span><h3>Robotics Club BMSCE</h3><p>Worked on robotic arms and electronics integration across robotics builds, including manipulation and embedded systems.</p></div></article>
-          <article class="timeline-item reveal"><div class="timeline-date">2025 — PRESENT</div><div class="timeline-mark"></div><div class="timeline-copy"><span class="timeline-type">LEADERSHIP / COMMUNICATION</span><h3>Republic of Toastmasters</h3><p>Leadership and membership responsibilities, club initiatives, event coordination and communication development.</p></div></article>
-          <article class="timeline-item reveal"><div class="timeline-date">2024 — 2025</div><div class="timeline-mark"></div><div class="timeline-copy"><span class="timeline-type">TECHNICAL EVENTS / ORGANIZATION</span><h3>BMSCE IEEE PES & Sensors Council</h3><p>Supported student activities, coordinated a hardware hackathon and helped organize technical workshops and events.</p></div></article>
-        </div>
-        <div class="awards-grid">
-          <article class="award reveal"><span class="award-icon">✳</span><span class="award-year">2026</span><h3>SAE India ADDC</h3><p>Winner — Unique Design Category</p></article>
-          <article class="award reveal"><span class="award-icon">✳</span><span class="award-year">2025</span><h3>SAE India Aerothon</h3><p>Runner-up · Flying Phantoms</p></article>
-          <article class="award reveal"><span class="award-icon">✳</span><span class="award-year">2025</span><h3>e-Yantra Robotics Competition</h3><p>Qualified for Stage 2 (Hardware)</p></article>
-          <article class="award reveal"><span class="award-icon">✳</span><span class="award-year">2024</span><h3>PhaseShift Hardware Hackathon</h3><p>Top 5 · 24-hour competition</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="about-section wrap">
-      <div class="about-orbit reveal"><div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div><div class="orbit-core">S<span>.</span></div><span class="orbit-caption">PASSION / INNOVATION</span></div>
-      <div class="about-copy reveal"><span class="section-no">05 / THE BUILDER BEHIND THE BUILDS</span><h2>Curiosity into<br><span class="lime">capability.</span></h2><p>I'm an Electronics and Communication Engineering student at B.M.S. College of Engineering, Bengaluru, focused on robotics, embedded systems and autonomous machines. I enjoy understanding how each layer works — and then making the layers work together.</p><p>My goal is to keep building practical systems, deepen my robotics expertise and contribute to engineering teams solving real-world problems.</p><div class="about-steps"><span><b>01</b> Explore</span><span><b>02</b> Engineer</span><span><b>03</b> Improve</span></div></div>
-    </section>
-
-    <section id="contact" class="contact-section">
-      <div class="wrap contact-inner">
-        <div class="contact-copy reveal"><span class="section-no">06 / CONTACT</span><h2>Let's turn the<br>next idea into <span class="lime">reality.</span></h2><p>Open to meaningful conversations, collaborative projects and opportunities across robotics, embedded systems and automation.</p><a class="btn-primary" href="mailto:YOUR_EMAIL_HERE">Email me <span>↗</span></a></div>
-        <div class="contact-links reveal">
-          <!-- PERSONALIZE: replace each placeholder URL and label below with your own details. -->
-          <div class="contact-row"><span>EMAIL</span><a href="mailto:YOUR_EMAIL_HERE">ADD YOUR EMAIL ↗</a></div>
-          <div class="contact-row"><span>LINKEDIN</span><a href="YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">ADD LINKEDIN URL ↗</a></div>
-          <div class="contact-row"><span>GITHUB</span><a href="YOUR_GITHUB_URL" target="_blank" rel="noreferrer">ADD GITHUB PROFILE ↗</a></div>
-          <div class="contact-row"><span>RESUME</span><a href="assets/resume.pdf" target="_blank" rel="noreferrer">ADD RESUME PDF TO ASSETS ↗</a></div>
-          <div class="contact-row"><span>INSTAGRAM / OTHER</span><a href="YOUR_SOCIAL_URL" target="_blank" rel="noreferrer">OPTIONAL PROFILE ↗</a></div>
-          <p class="contact-hint">These are placeholders. See README.md for exactly what to replace and where.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer"><a class="brand" href="#home"><span class="brand-symbol">S<span>.</span></span><span class="brand-copy">SAINATH PUNCHBHAI<small>ENGINEERING / PORTFOLIO</small></span></a><span>TURNING IDEAS INTO REALITY <b>✳</b></span><span>© <span id="year"></span> SAINATH PUNCHBHAI</span></footer>
-  <button class="back-top" aria-label="Back to top">↑</button>
-</body>
-</html>
+<div class="scroll-progress"><span></span></div>
+<div class="arm-backdrop" aria-hidden="true"><svg viewBox="0 0 800 950" class="big-arm"><defs><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f6ff"/><stop offset=".45" stop-color="#73819b"/><stop offset="1" stop-color="#202b40"/></linearGradient><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c6ff3d"/><stop offset="1" stop-color="#4cb8ff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g class="arm-grid" fill="none" stroke="#4cb8ff" stroke-opacity=".18"><circle cx="400" cy="460" r="315" stroke-dasharray="3 12"/><circle cx="400" cy="460" r="250"/><circle cx="400" cy="460" r="180" stroke-dasharray="5 10"/><path d="M40 460H760M400 80V850" stroke-dasharray="3 12"/></g><g class="arm-mech" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="400" cy="765" rx="170" ry="30" fill="#02040a" stroke="#4cb8ff" stroke-opacity=".3"/><path d="M280 730L310 660H490L520 730L480 770H320Z" fill="#172136" stroke="#8798b7" stroke-width="3"/><path d="M350 660L330 520H465L450 660Z" fill="url(#metal)" stroke="#d7e1f5" stroke-width="3"/><circle cx="397" cy="520" r="62" fill="#101728" stroke="url(#accent)" stroke-width="7"/><circle cx="397" cy="520" r="29" fill="#080b12" stroke="#f4f6ff" stroke-width="3"/><path d="M365 492L260 335L320 290L435 475Z" fill="url(#metal)" stroke="#c4d0e6" stroke-width="3"/><path d="M285 370L321 343L372 422L339 445Z" fill="url(#accent)" opacity=".9"/><circle cx="290" cy="330" r="52" fill="#111a2d" stroke="#f4f6ff" stroke-width="4"/><circle cx="290" cy="330" r="27" fill="#080b12" stroke="#c6ff3d" stroke-width="6"/><circle cx="290" cy="330" r="8" fill="#c6ff3d" filter="url(#glow)"/><path d="M320 293L485 205L530 265L350 367Z" fill="url(#metal)" stroke="#c4d0e6" stroke-width="3"/><path d="M367 308L478 247L493 270L384 333Z" fill="url(#accent)"/><circle cx="506" cy="235" r="44" fill="#111a2d" stroke="#f4f6ff" stroke-width="4"/><circle cx="506" cy="235" r="22" fill="#080b12" stroke="#ff5470" stroke-width="6"/><path d="M532 207L603 150L625 174L556 231Z" fill="url(#metal)" stroke="#c4d0e6" stroke-width="3"/><circle cx="615" cy="160" r="28" fill="#111a2d" stroke="#ffd447" stroke-width="5"/><path d="M632 140L668 112M636 158L675 161" stroke="#c6ff3d" stroke-width="10"/></g><g fill="#f4f6ff" font-family="monospace" font-size="13" letter-spacing="3" opacity=".7"><text x="85" y="210">6-DOF / MANIPULATOR</text><text x="510" y="650">KINEMATICS</text><text x="100" y="810">ROS 2 · MOVEIT 2</text></g><g fill="none" stroke="#c6ff3d" stroke-width="2" opacity=".8"><path d="M120 230H210L260 290M520 640H640L685 600M140 790H270L320 760"/><circle cx="260" cy="290" r="5" fill="#c6ff3d"/><circle cx="685" cy="600" r="5" fill="#c6ff3d"/><circle cx="320" cy="760" r="5" fill="#c6ff3d"/></g></svg></div>
+<header class="site-header"><a class="brand" href="#home"><span class="brand-mark">S<span>.</span></span><span>SAINATH PUNCHBHAI<small>ENGINEERING PORTFOLIO</small></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button><nav class="nav"><a href="#capabilities">Capabilities</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#experience">Experience</a><a class="nav-contact" href="#contact">Let's connect <span>↗</span></a></nav></header>
+<main id="home">
+<section class="hero section-wrap">
+ <div class="hero-copy reveal"><div class="eyebrow"><i></i> ENGINEERING · ROBOTICS · EMBEDDED SYSTEMS</div><h1>Turning Ideas<br>into <span>Reality.</span></h1><p class="tagline-sub">via Passion and Innovation</p><p class="hero-intro">I build at the intersection of <b>robotics, electronics and intelligent machines.</b> From CAD to code, I turn concepts into systems that move, sense and respond.</p><p class="scroll-hint"><span class="scroll-dot"></span> SCROLL TO EXPLORE</p></div>
+ <div class="profile-wrap reveal"><div class="profile-frame"><img src="assets/profile.png" alt="Portrait of Sainath Punchbhai"></div><div class="profile-stamp"><span>ECE</span><i>✳</i><span>BMSCE</span></div><div class="profile-caption"><span>THE ENGINEER BEHIND THE BUILDS</span><span>01 / INTRO</span></div></div>
+ <div class="hero-socials" aria-label="Social profile links"><a href="YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a><a href="YOUR_GITHUB_URL" target="_blank" rel="noreferrer" aria-label="GitHub">⌘</a><a href="YOUR_SOCIAL_URL" target="_blank" rel="noreferrer" aria-label="Instagram">◎</a><a href="mailto:YOUR_EMAIL_HERE" aria-label="Email">✉</a></div>
+</section>
+<section id="capabilities" class="capabilities section-wrap section-block"><div class="section-heading reveal"><div><span class="section-index">01 / WHAT I WORK ON</span><h2>Skills & <span>domains.</span></h2></div><p>Core areas I explore — and the tools I use to bring ideas to life.</p></div>
+ <div class="capability-grid"><article class="capability-card reveal"><div class="cap-icon icon-blue"><svg viewBox="0 0 64 64"><path d="M15 48h34M20 46l4-12-8-13 12-7 11 17M28 21l15-8 7 9-15 10"/><circle cx="16" cy="21" r="5"/><circle cx="28" cy="21" r="5"/><circle cx="43" cy="13" r="5"/><path d="M46 18l5 3-4 6"/></svg></div><h3>Robotics & Motion</h3><p>Robot modeling, kinematics, planning and simulation.</p><div class="tool-tags"><span>ROS 2</span><span>MoveIt 2</span><span>Gazebo</span><span>URDF</span></div></article>
+ <article class="capability-card reveal"><div class="cap-icon icon-yellow"><svg viewBox="0 0 64 64"><rect x="17" y="17" width="30" height="30" rx="4"/><path d="M24 9v8M32 9v8M40 9v8M24 47v8M32 47v8M40 47v8M9 24h8M9 32h8M9 40h8M47 24h8M47 32h8M47 40h8M25 26h14v12H25z"/></svg></div><h3>Embedded Systems</h3><p>Firmware, sensor integration and hardware control.</p><div class="tool-tags"><span>C / C++</span><span>Python</span><span>Arduino</span><span>ESP32</span></div></article>
+ <article class="capability-card reveal"><div class="cap-icon icon-red"><svg viewBox="0 0 64 64"><path d="M32 10l20 11v22L32 54 12 43V21Z"/><path d="M12 21l20 12 20-12M32 33v21M22 15l20 12"/><circle cx="32" cy="33" r="5"/></svg></div><h3>Autonomous Systems</h3><p>UAV avionics, sensing, communication and autonomy.</p><div class="tool-tags"><span>UAVs</span><span>Avionics</span><span>Sensors</span><span>Vision</span></div></article>
+ <article class="capability-card reveal"><div class="cap-icon icon-green"><svg viewBox="0 0 64 64"><path d="M13 49L26 15l12 34M19 34h14M37 20h14v29H37zM41 26h6M41 32h6M41 38h6"/><circle cx="26" cy="15" r="4"/></svg></div><h3>CAD & Prototyping</h3><p>Mechanical design, assemblies and iterative builds.</p><div class="tool-tags"><span>SolidWorks</span><span>Fusion 360</span><span>FreeCAD</span></div></article></div>
+ <div class="tools-area reveal"><div class="tools-title"><span class="section-index">TOOLS I USE</span><span>SOFTWARE / PLATFORMS</span></div><div class="tools-grid">
+ <div class="tool"><img src="assets/tools/solidworks.png" alt=""><span>SolidWorks</span></div><div class="tool"><img src="assets/tools/fusion360.png" alt=""><span>Fusion 360</span></div><div class="tool"><img src="assets/tools/freecad.png" alt=""><span>FreeCAD</span></div><div class="tool"><img src="assets/tools/ros2.png" alt=""><span>ROS 2</span></div><div class="tool"><img src="assets/tools/python.png" alt=""><span>Python</span></div><div class="tool"><img src="assets/tools/c-language.png" alt=""><span>C / C++</span></div><div class="tool"><img src="assets/tools/arduino.png" alt=""><span>Arduino</span></div><div class="tool"><img src="assets/tools/raspberry-pi.png" alt=""><span>Raspberry Pi</span></div><div class="tool"><img src="assets/tools/kicad.png" alt=""><span>KiCad</span></div><div class="tool"><img src="assets/tools/easyeda.png" alt=""><span>EasyEDA</span></div><div class="tool"><img src="assets/tools/fritzing.png" alt=""><span>Fritzing</span></div></div></div>
+</section>
+<section id="projects" class="projects-section section-wrap section-block"><div class="section-heading reveal"><div><span class="section-index">02 / SELECTED BUILDS</span><h2>Made to <span>move.</span></h2></div><p>Four projects. Different engineering challenges. One hands-on approach.</p></div><div class="projects-grid">
+<article class="project-card project-feature reveal"><div class="project-art art-arm"><span class="art-label">01 / MANIPULATION</span><svg viewBox="0 0 520 300" aria-hidden="true"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="260" cy="150" r="112" stroke="#4cb8ff" stroke-dasharray="4 9" opacity=".5"/><path d="M150 245L205 180L157 105L275 58L332 83" stroke="#dfe7f7" stroke-width="24"/><path d="M198 188L157 105L180 91L222 167M226 91L276 68L316 94" stroke="#c6ff3d" stroke-width="7"/><circle cx="205" cy="180" r="21" fill="#111a2d" stroke="#4cb8ff" stroke-width="5"/><circle cx="157" cy="105" r="20" fill="#111a2d" stroke="#c6ff3d" stroke-width="5"/><circle cx="275" cy="58" r="17" fill="#111a2d" stroke="#ff5470" stroke-width="5"/><path d="M332 83l33-27m-29 38 36 2" stroke="#ffd447" stroke-width="7"/><path d="M112 245h170" stroke="#75819b" stroke-width="12"/></g></svg><span class="art-foot">ROS 2 · MOVEIT 2 · GAZEBO</span></div><div class="project-info"><div class="project-type">ROBOTICS / 6-DOF</div><h3>Robotic Arm</h3><p>From CAD assembly to a ROS 2 robot model, with motion planning, inverse kinematics and Gazebo simulation.</p><div class="project-tags"><span>SolidWorks</span><span>URDF</span><span>MoveIt 2</span><span>Gazebo</span></div></div></article>
+<article class="project-card reveal"><div class="project-art art-uav"><span class="art-label">02 / AUTONOMY</span><svg viewBox="0 0 520 300" aria-hidden="true"><g stroke-linejoin="round" stroke-linecap="round"><path d="M260 80L260 220M190 150H330" stroke="#dfe7f7" stroke-width="22"/><path d="M260 150L155 92M260 150L365 92M260 150L155 208M260 150L365 208" stroke="#4cb8ff" stroke-width="13"/><g fill="#111a2d" stroke="#ffd447" stroke-width="5"><ellipse cx="155" cy="92" rx="65" ry="15"/><ellipse cx="365" cy="92" rx="65" ry="15"/><ellipse cx="155" cy="208" rx="65" ry="15"/><ellipse cx="365" cy="208" rx="65" ry="15"/></g><rect x="232" y="126" width="56" height="48" rx="9" fill="#17233a" stroke="#ff5470" stroke-width="4"/><path d="M248 150h24M260 138v24" stroke="#f4f6ff" stroke-width="3"/></g></svg><span class="art-foot">AVIONICS · SENSORS · FLIGHT SYSTEMS</span></div><div class="project-info"><div class="project-type">AEROSPACE / UAV</div><h3>Autonomous UAV</h3><p>Avionics and system integration for an autonomous surveillance and disaster-management drone.</p><div class="project-tags"><span>Flight Controller</span><span>Avionics</span><span>Telemetry</span></div></div></article>
+<article class="project-card reveal"><div class="project-art art-hex"><span class="art-label">03 / MECHATRONICS</span><svg viewBox="0 0 520 300" aria-hidden="true"><g stroke="#dfe7f7" stroke-width="13" stroke-linecap="round" fill="none"><path d="M260 135L155 83L104 132L78 193M260 135L365 83L416 132L442 193M260 135L154 170L132 229L105 246M260 135L366 170L388 229L415 246M260 135L223 67L195 48M260 135L297 67L325 48"/></g><path d="M220 106h80l25 34-25 35h-80l-25-35z" fill="#17233a" stroke="#c6ff3d" stroke-width="4"/><g fill="#080b12" stroke="#4cb8ff" stroke-width="5"><circle cx="104" cy="132" r="15"/><circle cx="416" cy="132" r="15"/><circle cx="132" cy="229" r="15"/><circle cx="388" cy="229" r="15"/><circle cx="195" cy="48" r="13"/><circle cx="325" cy="48" r="13"/></g></svg><span class="art-foot">MECHANISMS · ACTUATION · CAD</span></div><div class="project-info"><div class="project-type">ROBOTICS / LOCOMOTION</div><h3>Hexapod Robot</h3><p>A multi-legged robot concept focused on mechanical layout, leg geometry and coordinated movement.</p><div class="project-tags"><span>CAD</span><span>Mechanisms</span><span>Mechatronics</span></div></div></article>
+<article class="project-card reveal"><div class="project-art art-line"><span class="art-label">04 / CONTROL</span><svg viewBox="0 0 520 300" aria-hidden="true"><g fill="none" stroke="#4cb8ff" stroke-width="2" opacity=".4"><path d="M55 55H465V245H55zM95 95H425V205H95z" stroke-dasharray="5 7"/></g><path d="M80 230L80 180L160 180L160 120L250 120L250 190L340 190L340 90L435 90" fill="none" stroke="#c6ff3d" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><g fill="#111a2d" stroke="#ff5470" stroke-width="4"><circle cx="80" cy="180" r="9"/><circle cx="160" cy="120" r="9"/><circle cx="250" cy="190" r="9"/><circle cx="340" cy="90" r="9"/><circle cx="435" cy="90" r="9"/></g><g fill="#dfe7f7"><rect x="205" y="42" width="110" height="38" rx="7"/><rect x="222" y="52" width="76" height="18" rx="3" fill="#4cb8ff"/></g></svg><span class="art-foot">PID · IR SENSORS · MOTOR CONTROL</span></div><div class="project-info"><div class="project-type">EMBEDDED / CONTROL</div><h3>Line Follower Robot</h3><p>A PID-based mobile robot using IR sensing and motor control to follow a track with stable corrections.</p><div class="project-tags"><span>PID Control</span><span>Arduino</span><span>DRV8833</span></div></div></article>
+</div><p class="future-note"><span>✳</span> Project visuals are illustrative for now. Real build photos and CAD renders will replace these as the portfolio evolves.</p></section>
+<section id="achievements" class="achievements-section section-wrap section-block"><div class="section-heading reveal"><div><span class="section-index">03 / RECOGNITION</span><h2>Built. Tested. <span>Recognized.</span></h2></div><p>Competitions, milestones and the teams behind them.</p></div><div class="achievement-list"><article class="achievement reveal"><span class="achievement-year">2026</span><div><h3>SAE India ADDC</h3><p>Winner — Unique Design Category</p></div><span class="achievement-mark">✳</span></article><article class="achievement reveal"><span class="achievement-year">2025</span><div><h3>SAE India Aerothon</h3><p>Runner-up · Flying Phantoms</p></div><span class="achievement-mark">✳</span></article><article class="achievement reveal"><span class="achievement-year">2025</span><div><h3>e-Yantra Robotics Competition</h3><p>Qualified for Stage 2 — Hardware</p></div><span class="achievement-mark">↗</span></article><article class="achievement reveal"><span class="achievement-year">2025</span><div><h3>PhaseShift Hardware Hackathon</h3><p>Top 5 · 24-hour competition</p></div><span class="achievement-mark">✳</span></article></div></section>
+<section id="experience" class="experience-section section-wrap section-block"><div class="section-heading reveal"><div><span class="section-index">04 / COLLABORATION & LEADERSHIP</span><h2>Teams that <span>build.</span></h2></div><p>Engineering, event execution and working with people who make things happen.</p></div><div class="experience-list"><article class="experience-item reveal"><div class="experience-date">2025 — 2026</div><div class="experience-marker"></div><div><span class="experience-label">AVIONICS / AUTONOMOUS UAVs</span><h3>AeroBMSCE</h3><p>Contributed to UAV development through avionics, flight-controller, sensor and communication-system integration.</p></div></article><article class="experience-item reveal"><div class="experience-date">2024 — PRESENT</div><div class="experience-marker"></div><div><span class="experience-label">ROBOTICS / HARDWARE</span><h3>Robotics Club BMSCE</h3><p>Worked across robotic mechanisms, embedded electronics and practical robotics builds.</p></div></article><article class="experience-item reveal"><div class="experience-date">2025 — PRESENT</div><div class="experience-marker"></div><div><span class="experience-label">LEADERSHIP / COMMUNICATION</span><h3>Republic of Toastmasters</h3><p>Supported club initiatives, meeting experiences, event coordination and communication development.</p></div></article><article class="experience-item reveal"><div class="experience-date">2024 — 2025</div><div class="experience-marker"></div><div><span class="experience-label">TECHNICAL EVENTS / ORGANIZATION</span><h3>BMSCE IEEE PES & Sensors Council</h3><p>Helped coordinate a hardware hackathon and technical events, supporting participants and event operations.</p></div></article></div></section>
+<section id="contact" class="contact-section"><div class="section-wrap contact-layout"><div class="contact-main reveal"><span class="section-index">05 / START A CONVERSATION</span><h2>Have an idea?<br><span>Let's build it.</span></h2><p>Open to engineering opportunities, collaborations and conversations around robotics, embedded systems and automation.</p><a class="email-button" href="mailto:YOUR_EMAIL_HERE">Get in touch <span>↗</span></a></div><div class="contact-options reveal"><a href="YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer"><span class="social-icon">in</span><span><b>LinkedIn</b><small>Professional profile</small></span><i>↗</i></a><a href="YOUR_GITHUB_URL" target="_blank" rel="noreferrer"><span class="social-icon">⌘</span><span><b>GitHub</b><small>Code & repositories</small></span><i>↗</i></a><a href="YOUR_SOCIAL_URL" target="_blank" rel="noreferrer"><span class="social-icon">◎</span><span><b>Instagram</b><small>More from my world</small></span><i>↗</i></a><a href="assets/resume.pdf" target="_blank" rel="noreferrer"><span class="social-icon">↧</span><span><b>Resume</b><small>Download PDF</small></span><i>↗</i></a></div></div></section>
+</main><footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">S<span>.</span></span><span>SAINATH PUNCHBHAI<small>TURNING IDEAS INTO REALITY</small></span></a><span>DESIGN / BUILD / TEST / ITERATE</span><a href="#home">BACK TO TOP ↑</a></footer>
+</body></html>
